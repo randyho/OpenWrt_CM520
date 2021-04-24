@@ -15,8 +15,8 @@
 
 # Add a feed source
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb' feeds.conf.default
-sed -i '$a src-git luci-app-vssr https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
+git clone https://github.com/jerrykuku/lua-maxminddb.git
+git clone https://github.com/jerrykuku/luci-app-vssr.git
 
 # Add luci-theme-argon
 rm -rf lede/package/lean/luci-theme-argon
