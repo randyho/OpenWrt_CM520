@@ -26,7 +26,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 
 # 获取luci-app-openclash 编译po2lmo
-git clone -b master https://github.com/vernesong/OpenClash package/diy-packages/openclash
-pushd package/diy-packages/openclash/luci-app-openclash/tools/po2lmo
-make && sudo make install
-popd
+# git clone -b master https://github.com/vernesong/OpenClash package/diy-packages/openclash
+# pushd package/diy-packages/openclash/luci-app-openclash/tools/po2lmo
+# make && sudo make install
+# popd
