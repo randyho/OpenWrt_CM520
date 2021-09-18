@@ -19,6 +19,8 @@
 # sed -i '$a src-git openclash https://github.com/vernesong/OpenClash' feeds.conf.default
 
 # Add luci-theme-argon
-rm -rf lede/package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon.git
-# git clone https://github.com/jerrykuku/luci-app-argon-config.git
+# rm -rf lede/package/lean/luci-theme-argon
+# git clone https://github.com/jerrykuku/luci-theme-argon.git
+rm -rf package/lean/luci-theme-argon/
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
