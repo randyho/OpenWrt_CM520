@@ -15,6 +15,7 @@
 
 name: Build Lean LEDE for CM520
 
+on:
  repository_dispatch:
   workflow_dispatch:
     inputs:
