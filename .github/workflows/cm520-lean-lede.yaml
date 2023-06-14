@@ -15,19 +15,17 @@
 
 name: Build Lean LEDE for CM520
 
-on:
+ repository_dispatch:
   workflow_dispatch:
     inputs:
-      force-build:
-        description: "Build new firmware anyway"
-        required: false
-        default: "false"
       ssh:
-        description: "SSH connection to Actions"
+        description: 'SSH connection to Actions'
         required: false
-        default: "false"
-  schedule:
-    - cron: 0 16 * * 5
+        default: 'false'
+#  schedule:
+#    - cron: 0 8 * * 5
+  watch:
+    types: started
 
 env:
   REPO_NAME: lean-lede
