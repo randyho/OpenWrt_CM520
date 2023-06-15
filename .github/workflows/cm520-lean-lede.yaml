@@ -13,7 +13,7 @@
 #-------------------------------------------------------------------------------------------------------
 
 
-name: Build Lean LEDE for CM520
+name: Build LEDE for CM520
 
 on:
   workflow_dispatch:
@@ -44,7 +44,7 @@ env:
                    patch pkgconf python2.7 python3 python3-distutils python3-pip libpython3-dev qemu-utils rsync \
                    scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd \
                    zlib1g-dev"
-  CONFIG_FILE: cm520-canbox.config
+  CONFIG_FILE: cm520-lede.config
   CUSTOM_SCRIPT_1: diy-part1.sh
   CUSTOM_SCRIPT_2: diy-part2.sh
   # If you have packages in your configuration that are compiled but not solidified into firmware, set the 
