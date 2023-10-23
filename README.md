@@ -1,1 +1,1 @@
-自动编译 OpenWrt for Xiaoyu 
+自动编译 LEDE for CM520 
