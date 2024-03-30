@@ -35,7 +35,7 @@ on:
 env:
   REPO_NAME: lean-lede
   REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_BRANCH: 23.05
+  REPO_BRANCH: master
   BUILD_DEPENDS:  "ack antlr3 aria2 asciidoc autoconf automake autopoint binutils bison build-essential bzip2 \
                    ccache clang cmake cpio curl device-tree-compiler fastjar file flex gawk gettext gcc-multilib \
                    g++ g++-multilib git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libglib2.0-dev \
