@@ -25,7 +25,8 @@ git clone --depth 1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon packa
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 
 #添加额外软件包
-git clone --depth 1 -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+# git clone --depth 1 -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+git clone https://github.com/randyho/luci-app-clash-lite.git package/luci-app-clash-lite
 # git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
 
 # ssr plus
